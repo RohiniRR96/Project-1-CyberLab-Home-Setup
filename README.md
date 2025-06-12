@@ -59,12 +59,15 @@ Before jumping into battle, you’ll need:
 
 <h2 id="Network Topology">Network Topology</h2> 
 
-'''mermaid
-graph TD;
-    A[Kali Linux] -->|Simulates Attacks| B[Windows 10];
-    B -->|Sends Logs| C[Splunk];
-    C -->|Generates Alerts| D[Security Analyst];
-'''
+```mermaid
+   graph TD;
+    A[Kali Linux] -->|Simulates Attacks| B[Windows 10]
+    B -->|Sends Logs| C[Splunk]
+    C -->|Generates Alerts| D[Security Analyst]
+```
+
+
+
     
 <h2 id="Step 1: Setting Up Virtual Machines">Step 1: Setting Up Virtual Machines</h2> 
 <h2 id="Step 2: Installing Splunk for Log Monitoring">Step 2: Installing Splunk for Log Monitoring</h2> 
